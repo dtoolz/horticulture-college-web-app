@@ -1,0 +1,103 @@
+
+body{
+    font-family: 'Fredericka the Great', cursive !important;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background: url(./images/b1.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+
+header{
+    padding: 25px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.hat{
+    float: left;
+    margin-top: -25px;
+}
+
+.title-color{
+    color: rgb(83, 163, 88);
+}
+
+.sch-icon{
+    color: rgb(83, 163, 88);
+}
+
+.search-my{
+    float: right;
+    margin-right: 10px;
+    margin-top: -20px;
+}
+
+.search-border{
+    border: 3px rgb(83, 163, 88) solid !important;
+}
+
+.search1{
+    width: 200px;
+    background: transparent;
+    border: none;
+}
+
+.button1{
+    background-color: rgb(94, 189, 101);
+    border: none;
+    
+}
+
+.navbar-nav li{
+    z-index: 1;
+}
+
+.navbar-nav li a{
+    font-size: 20px;
+    padding: 10px 45px !important;
+    border-left: 2px solid rgb(202, 201, 201);
+    border-right: 1px solid rgb(202, 201, 201);
+}
+
+.navbar-nav li a:hover{
+    border-right: 3px solid #fff;
+    border-left: 3px solid #fff;
+    transition: 0.5s all;
+}
+
+@media(max-width:1200px){
+    .navbar-nav li{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:992px){
+     .navbar-toggler{
+         margin: 10px 0px 10px 30px;
+         border-color: rgb(53, 52, 52) !important;
+     }
+     .navbar-nav li a{
+         text-align: center;
+     }
+     .navbar-nav li a:hover{
+        background-color: rgb(11, 32, 13);
+     }
+     .sch-icon{
+         margin-left: 40px !important;
+         margin-right: 10px !important;
+         font-size: 30px !important;
+     }
+     .title-color{
+         font-size: 30px !important;
+     }
+     .search-my{
+         margin-right: 90px !important;
+         margin-top: -3px !important;
+     }
+}
+
+
+
